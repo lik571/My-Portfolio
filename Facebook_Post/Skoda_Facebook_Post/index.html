@@ -1,0 +1,418 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>VAM Skoda - Social_Post</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="3b4b72b5-d8ae-4873-88c6-e8c6e794ec22.css" inline="">
+    <link rel="stylesheet" href="">
+
+    <style>
+        body,
+        div,
+        img {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            color: #1C1E21;
+            text-align: left;
+        }
+
+        #content {
+            width: 100%;
+            height: auto;
+            max-width: 1080px;
+            background-color: #fff;
+        }
+
+        #brandInfo {
+            position: relative;
+            margin: 45px 45px 0 45px;
+            text-align: left;
+            display: inline-block;
+            width: 100%;
+            max-width: 1020px;
+        }
+
+        .container {
+            position: relative;
+            margin: 0px 13px 13px 13px;
+            text-align: left;
+            display: block;
+            width: 100%;
+            max-width: 294px;
+        }
+
+        #brand_colLeft {
+            width: 90%;
+            float: left;
+        }
+
+        #brandlogo img {
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            margin: 0px;
+        }
+
+        #brandName {
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+        #brandName span {
+            font-size: 50px;
+            font-weight: bold;
+            line-height: 57px;
+            color: #1C1E21;
+            margin: 0 0 5px 50px;
+            display: block;
+        }
+
+        #sponsored {
+            margin: 5px 0 10px 0;
+            display: inline-flex;
+        }
+
+        #sponsored span {
+            font-size: 43px;
+            line-height: 45px;
+            color: #626770;
+            vertical-align: top;
+        }
+
+        #brand_colRight {
+            position: relative;
+            width: 10%;
+            top:20px;
+            left:0px;
+            display: inline-block;
+            margin-bottom: 40px;
+        }
+
+        #primaryText {
+            width: 100%;
+            max-width: 1000px;
+            margin: 15px 0 20px 26px;
+            display: block;
+
+        }
+
+        #primaryText span {
+            font-size: 47px;
+            line-height: 64px;
+            vertical-align: top;
+        }
+
+        #feedImage {
+            position: relative;
+            display: block;
+            margin: 0
+        }
+        #bg_img{
+            position: relative;
+            width: 1080px;
+            height: 1080px;
+        }
+        #emission_img{
+            position:absolute;
+            height: 287px;
+            width: 287px;
+            left: 26px;
+            top: 724px;
+            border-radius: 0px;
+
+        }
+        #top_headline1_box{
+            /* left: 26px; */
+            /* top: 71px; */
+            /* height: 60px; */
+            box-sizing: border-box;
+            position: relative;
+            /* width: 150px; */
+            z-index: 4;
+        }
+        #eyebrow_box {
+            left: 26px;
+            top: 55px;
+            height: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            width: 85%;
+            z-index: 4;
+        }
+        #into-eyebrow-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            font-size: 37pt;
+            /* line-height: 44px; */
+            color: #FFFFFF;
+        }
+        #headline_box {
+            left: 26px;
+            top: 99px;
+            height: 26px;
+            box-sizing: border-box;
+            position: absolute;
+            width: 85%;
+            z-index: 4;
+        }
+        #into-headline-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            /* top: 0%; */
+            /* left: 0%; */
+            font-size: 94px;
+            /* line-height: 114px; */
+            color: #FFFFFF;
+        }
+        #leftline3only_box {
+            left: 5px;
+            top: 201px;
+            height: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            /* width: 85%; */
+            z-index: 4;
+        }
+        #linecontainer3 {
+            width: 705px;
+            align-items: center;
+            height: 20px;
+            display: flex;
+            position: absolute;
+            /* border: 3.68324px; */
+            /* top:98px; */
+            left:26px
+        }
+        #leftline3 {
+            /* top: 51%; */
+            overflow: hidden;
+            width: 20%;
+            height: 3.6px;
+            content: '\a0';
+            background-color: #ffff;
+            margin-right: 5.5%;
+            position: absolute;
+        }
+        #subheading_box {
+            left: 29px;
+            top: 224px;
+            height: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            width: 85%;
+            z-index: 4;
+        }
+        #into-subheading-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            /* top: 100px; */
+            left: 0%;
+            font-size: 32px;
+            /* line-height: 38px; */
+            color: #FFFFFF;
+        }
+        #Logo{
+            position: absolute;
+            width: 199px;
+            height: 590px;
+            right: -14.8px;
+            top: -0.43px;
+        }
+        #feedInfo {
+            position: relative;
+            width: 100%;
+            max-width: 1080px;
+            background-color: #F4F8F9;
+            display: inline-block;
+        }
+
+        .info_colLeft {
+            width: 55%;
+            float: left;
+            margin: 45px 0 45px 45px;
+        }
+
+        #feedUrl {
+            font-size: 44px;
+            color: #626770;
+            /* text-transform: uppercase; */
+            width: 100%;
+            float: left;
+            padding-bottom: 10px
+        }
+
+        #feedHeadline {
+            font-size: 51px;
+            color: #1C1E21;
+            font-weight: bold;
+            width: 100%;
+            float: left;
+            padding-bottom: 10px;
+        }
+
+        #feedDescription {
+            font-size: 44px;
+            color: #626770;
+            width: 100%;
+            float: left;
+        }
+        #disclaimercopy_1{
+            position: absolute;
+            /* width: 311px; */
+            height: 18px;
+            left: 26px;
+            top: 1024px;
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+            text-align: center;
+            width: 100%;
+            /* font-family: 'SKODANext-Regular'; */
+        }
+
+        .cta_colRight {
+            text-align: right;
+            float: right;
+            margin: 0 13px 0 0;
+        }
+
+        #cta {
+            position: relative;
+            border: 3px solid #000000;
+            padding: 24px 17px;
+            border-radius: 13px;
+            margin-top: 80px;
+            right: 130px;
+        }
+
+        #cta span {
+            font-size: 37px;
+            font-weight: 700px;
+            color: #1C1E21;
+            text-transform: capitalize;
+        }
+        #skodaLight {
+            font-family: 'skoda_nextlight', Arial, Helvetica, sans-serif;
+        }
+
+        #skodaRegular {
+            font-family: 'skoda_nextregular', Arial, Helvetica, sans-serif;
+        }
+
+        #skodaBold {
+            font-family: 'skoda_nextbold', Arial, Helvetica, sans-serif;
+        }
+
+        #skodaBlack {
+            font-family: 'skoda_nextblack', Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="content">
+
+        <div id="brandInfo">
+
+            <div id="brand_colLeft">
+                <img id="brandlogo" src="19e23b4e-f9b7-4b6a-be5e-4ebc602b525a.svg" width="135" height="135" alt="">
+                <div id="brandName">
+                    <span>SKODA (FR)</span>
+                    <div id="sponsored">
+                        <span>Sponsored&nbsp;•&nbsp;</span>
+                        <img src="fcbd69b1-99a7-4310-b953-6233342d6a04.png" width="44" height="44" style="display: block;" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="brand_colRight">
+                <img src="d6b14462-83bb-49e4-b2b4-ab334b41a437.png" width="64" alt="">
+            </div>
+
+        </div>
+
+        <div id="primaryText" class="container">
+            <span>Il n'attend plus que vous!</span>
+        </div>
+
+        <div id="feedImage">
+            <div id="top_headline1_box">
+                <div id="eyebrow_box">
+                    <!-- Eyebrow -->
+                    <div id="eyebrow">
+                       <div id="into-eyebrow-container">
+                            <span id="skodaLight">ŠKODA</span>
+                       </div>
+                    </div>
+                </div>   
+                 <div id="headline_box">
+                    <!-- Headline -->
+                    <div id="headline">
+                       <div id="into-headline-container">
+                            <span id="skodaBold">KAMIQ</span>
+                       </div>
+                    </div>          
+                </div> 
+                 <div id="leftline3only_box">
+                    <div id="linecontainer3">
+                       <div id="leftline3"></div>
+                       <div id="rightline3"></div>
+                    </div>            
+                </div> 
+                <div id="subheading_box">
+                    <!-- Subheading -->
+                    <div id="subheading">
+                       <div id="into-subheading-container">
+                            <span id="skodaBold">PARE POUR LE QUOTIDIEN</span>
+                       </div>
+                    </div>
+                </div> 
+            </div>
+            <div>
+                <img id="bg_img" src="04b7e56d-a313-4030-8c1b-8185786cea23.jpg" alt="" style="display: block;">
+                <img id="emission_img" src="333216d6-3884-49dd-8032-475079369b5a.png" alt="" style="display: block;">
+                <img id="Logo" src="7dd59d34-79f4-4477-a8a8-54bb36b84382.png" alt="" style="display: block;">
+            </div>  
+            <div id="disclaimercopy_1">
+                <span id="skodaRegular">Penser a covoiturer. #SeDeplacerMoinsPolluer</span>
+            </div>
+            
+        </div>
+
+        <div id="feedInfo">
+
+            <div class="info_colLeft">
+                <span id="feedUrl">https://www.skoda.fr</span>
+                <span id="feedHeadline">Découvrez-le</span>
+                <span id="feedDescription">Plus d'infos sur skoda.fr</span>
+            </div>
+
+            <div class="cta_colRight">
+                <div id="cta">
+                    <span>En savoir plus</span>
+                </div>
+            </div>
+
+            <div>
+                <img src="23951476-0274-4729-ab07-8c55f64b09ac.png" width="1080" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body></html>
